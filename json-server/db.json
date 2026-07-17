@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "title": "Aprender React",
+      "description": "Hooks y Router",
+      "status": "pending",
+      "id": 1
+    },
+    {
+      "title": "Preparar entrevista",
+      "description": "Practicar casos",
+      "status": "done",
+      "id": 2
+    },
+    {
+      "title": "PC3 de Java",
+      "description": "Hacer el servicio y las paginas",
+      "status": "done",
+      "id": 3
+    }
+  ]
+}
