@@ -1,30 +1,96 @@
-Task Manager React
-Aplicación de gestión de tareas desarrollada con React y un servidor local basado en JSON.
+# 📋 Task Manager React
 
-Instalación
-Para ejecutar este proyecto en tu computadora, asegúrate de tener instalado Node.js. Luego, sigue estos pasos:
+Aplicación web para la **gestión de tareas**, desarrollada con **React** y un servidor local utilizando **JSON Server** como API simulada.
 
-Clonar el repositorio:
+## 🚀 Tecnologías utilizadas
+
+- ⚛️ React
+- ⚡ Vite
+- 🟨 JavaScript
+- 📦 JSON Server
+- 🎨 CSS
+
+---
+
+## 📥 Instalación
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- Node.js (versión 18 o superior recomendada)
+- npm
+
+### 1. Clonar el repositorio
+
+```bash
 git clone https://github.com/Kenji-Chavez/task-manager-react.git
 cd task-manager-react
+```
 
-Instalar dependencias del servidor:
+### 2. Instalar las dependencias
+
+#### Servidor (JSON Server)
+
+```bash
 cd json-server
 npm install
+```
 
-Instalar dependencias de la aplicación React:
+#### Cliente (React)
+
+```bash
 cd ../react-tasks-app
 npm install
+```
 
-⚙️ Cómo ejecutar el proyecto
-Necesitas tener dos terminales abiertas, una para el servidor y otra para la aplicación web.
+---
 
-1. Iniciar el servidor (JSON Server)
-Desde la carpeta raíz, entra a la carpeta del servidor y ejecútalo:
+# ▶️ Ejecutar el proyecto
+
+Para que la aplicación funcione correctamente, debes ejecutar **dos procesos simultáneamente**: el servidor y la aplicación React.
+
+## 🖥️ Terminal 1 – Iniciar JSON Server
+
+```bash
 cd json-server
-npx json-server .\db.json --watch --port 3001
+npx json-server db.json --watch --port 3001
+```
 
-2. Iniciar la aplicación de React
-Desde una nueva terminal (en la carpeta raíz), entra a la carpeta del cliente y ejecútalo:
+El servidor estará disponible en:
+
+```
+http://localhost:3001
+```
+
+---
+
+## 💻 Terminal 2 – Iniciar la aplicación React
+
+```bash
 cd react-tasks-app
 npm run dev
+```
+
+La aplicación estará disponible en:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+task-manager-react/
+│
+├── json-server/        # API simulada con JSON Server
+│   └── db.json
+│
+└── react-tasks-app/    # Aplicación desarrollada en React
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Kenji Chavez Tapia**
